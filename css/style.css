@@ -1,0 +1,61 @@
+
+/*
+ text body color: #747784;
+ text-faded color: #bcbbbb;
+ font-family: lato;
+*/
+* { 
+
+	-webkit-box-sizing: border-box;     
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+body {
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #747784;
+}
+.text-thin {
+
+    font-weight:100;
+}
+.text-faded {
+
+	color: #bcbbbb;;
+}
+header {
+
+	display: flex;
+}
+.udacity-logo {
+
+	margin-top: 15px;
+}
+.break-line {
+
+	border: 2px solid #747784;
+}
+main {
+
+	display: flex;
+	margin-top: 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+
+    main h3  {
+
+        font-size: 20px;
+    }
+        
+}
+@media screen and (max-width: 496px) {
+
+    main h3  {
+
+        font-size: 15px;
+    }    
+}
